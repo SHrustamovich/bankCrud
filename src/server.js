@@ -1,7 +1,7 @@
 const express = require("express")
 const route = require('./routers/routers')
 const {sequelize} = require('./models/models')
-const PORT= require('./config')
+const {PORT}= require('./config')
 const cors = require('cors')
 const app = express()
 app.use(cors())
